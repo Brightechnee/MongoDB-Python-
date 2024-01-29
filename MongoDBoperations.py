@@ -17,11 +17,11 @@ db = connection.training
 
 collection = db.mongodb_glossary
 
-doc = {"database":"a database contains collections"},
+doc = [{"database":"a database contains collections"},
 
 {"collection":"a collection stores the documents"},
 
-{"document":"a document contains the data in the form or key value pairs."}
+{"document":"a document contains the data in the form or key value pairs."}]
 
 # insert a sample document
 
