@@ -1,6 +1,6 @@
 from pymongo import MongoClient
 user= 'root'
-password = 'MTc5MTkta2F4Y***'
+password = 'MTc5MTkta2F4****'
 host='localhost'
 
 connecturl = "mongodb://{}:{}@{}:27017/?authSource=admin".format(user,password,host)
